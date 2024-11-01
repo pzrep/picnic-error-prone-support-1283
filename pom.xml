@@ -8,7 +8,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
     <error-prone.version>2.35.1</error-prone.version>
-    <picnic.error-prone-support.version>0.18.0</picnic.error-prone-support.version>
+    <picnic.error-prone-support.version>0.19.0</picnic.error-prone-support.version>
   </properties>
   <dependencyManagement>
     <dependencies>
