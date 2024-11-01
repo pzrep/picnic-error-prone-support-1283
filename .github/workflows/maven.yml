@@ -29,5 +29,8 @@ jobs:
     - name: Build with Maven
       run: |
         ./mvnw --no-transfer-progress --show-version help:effective-settings
-        ./mvnw --no-transfer-progress --debug clean verify || cat javac.out
+        ./mvnw --no-transfer-progress --debug clean verify
+    - name: What is in javac.out
+      if: failure()
+      run: cat javac.out
 
